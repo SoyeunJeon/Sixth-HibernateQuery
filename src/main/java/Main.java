@@ -40,7 +40,9 @@ public class Main {
         Person person3 = personService.getPersonById(person1.getId());
         System.out.println(person3.getName());
 
-        System.out.println(people2);
+        Person person4 = people2.get(0);
+        System.out.println(person4.getName());
+//        System.out.println(people2);
 
         System.out.println(people3);
 
